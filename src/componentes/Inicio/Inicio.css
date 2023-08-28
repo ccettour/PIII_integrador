@@ -11,3 +11,103 @@
     margin: auto;
     padding: 0.5rem;
 }
+
+/*api de noticias*/
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: rgb(231, 196, 216);
+}
+
+.nav-noticias {
+    text-align: center;
+    margin: buttom 20px;
+}
+
+.nav-noticias span {
+    display: inline-block;
+    background-color: #94326b;
+    color: #fdfdfd;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.nav-noticias span:hover {
+    color: #fc0505
+}
+
+.div-noticias {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.div-noticias input {
+    padding: 5px 10px;
+    border: none;
+    border: 2px solid #94326b;
+    border-radius: 30px;
+}
+
+.div-noticias button {
+    border: none;
+    padding: 7px 10px;
+    border-radius: 30px;
+    border: 2px solid #94326b;
+}
+
+.container-noticias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    padding-bottom: 20px;
+}
+
+.container-noticias .item {
+    background-color: #94326b;
+    max-width: 360px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container-noticias .item:hover {
+    box-shadow: 0 0 10px 5px #ccc;
+}
+
+.container-noticias .item:hover h2 {
+    text-decoration: underline;
+}
+
+.container-noticias .item .info_item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.container-noticias .item img {
+    width: 100%;
+}
+
+
+.container-noticias #btnSiguiente {
+    cursor: pointer;
+}
+
+.container-noticias #btnSiguiente:hover {
+    color: #94326b;
+}
