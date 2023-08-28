@@ -72,7 +72,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 90px;
 }
 
 .container-noticias .item {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './Inicio.css';
 
-export function Noticias() {
+export function Inicio(){
   const [noticias, setNoticias] = useState([]);
   const [tema] = useState("Tecnologia");
   const cantidadNoticias = 11;
@@ -50,9 +50,13 @@ export function Noticias() {
   useEffect(() => {
     fetchNoticias(tema);
   }, [tema]);
-
   return (
     <>
+      <div className="titulo">
+        <h2>BEDELIA</h2>
+        
+      </div>
+
       <div className="navbar-toggle" onClick={() => {
         document.querySelector('.navbar-menu').classList.toggle('show');
       }}>
@@ -71,16 +75,6 @@ export function Noticias() {
           </div>
         ))}
         <span id="btnSiguiente" onClick={siguiente}>Ver más</span>
-      </div>
-    </>
-  );
-}
-
-export function Inicio(){
-  return (
-    <>
-      <div className="titulo">
-        <h2>BEDELIA</h2>
       </div>
     </>
   );
