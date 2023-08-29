@@ -72,7 +72,8 @@ h3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 25px;
-    padding-bottom: 80px;
+    background-color:  rgb(48, 48, 48);
+    padding: 10px 20px;
 }
 
 .container-noticias .item {
@@ -84,6 +85,7 @@ h3 {
     cursor: pointer;
     transition: .3s;
     height: 350px;
+    overflow: auto;
 }
 
 .container-noticias .item:hover {
@@ -102,17 +104,39 @@ h3 {
 }
 
 .container-noticias .item img {
-    width: 55%;
+    max-width: 55%;
+    max-height: 50%;
 }
 
 .container-noticias .item h2{
     font-size: 20px;
 }
 
-.container-noticias #btnSiguiente {
-    cursor: pointer;
+button.btn-light {
+    color: rgb(232, 178, 209);
+    border: 2px solid rgb(232, 178, 209);
+    background-color: transparent;
 }
 
-.container-noticias #btnSiguiente:hover {
-    color: #94326b;
+button.btn-light:hover {
+    color: rgb(48, 48, 48);
+    border-color: rgb(232, 178, 209);
+    background-color: rgb(232, 178, 209);
+}
+
+button.btn-accion {
+    background-size: cover;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    margin: 3px 10px;
+}
+
+.ver-mas{
+    padding: 0px 20px 90px;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: flex-end;
 }
