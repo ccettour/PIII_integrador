@@ -18,7 +18,7 @@
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -70,9 +70,9 @@ h3 {
 
 .container-noticias {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 30px;
-    padding-bottom: 90px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+    padding-bottom: 80px;
 }
 
 .container-noticias .item {
@@ -83,6 +83,7 @@ h3 {
     padding: 10px;
     cursor: pointer;
     transition: .3s;
+    height: 350px;
 }
 
 .container-noticias .item:hover {
@@ -96,13 +97,17 @@ h3 {
 .container-noticias .item .info_item {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 15px;
+    font-size: 15px;
 }
 
 .container-noticias .item img {
-    width: 100%;
+    width: 55%;
 }
 
+.container-noticias .item h2{
+    font-size: 20px;
+}
 
 .container-noticias #btnSiguiente {
     cursor: pointer;
