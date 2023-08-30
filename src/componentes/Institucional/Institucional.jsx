@@ -136,7 +136,7 @@ export function Institucional() {
         <div className="container-carrusel">
           <div className="img-carrusel">
             <Carousel
-              showThumbs={true} // Mostrar miniaturas
+              showThumbs={false} // Mostrar miniaturas
               showStatus={false} // Mostrar estado de diapositiva actual
               infiniteLoop={true} // Bucle infinito
               autoPlay={true} // Reproducción automática

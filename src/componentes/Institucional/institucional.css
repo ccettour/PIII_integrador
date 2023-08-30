@@ -46,6 +46,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    user-select: none;
-    width: 80%;
+    border-radius: 10%;
+    overflow: hidden;
+    height: 500px;
+    width: 480px;
+    background-color: #f0f0f0;
+    object-fit: cover;
+    margin: 0 auto
 }
