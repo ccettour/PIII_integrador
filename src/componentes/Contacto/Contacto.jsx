@@ -31,7 +31,7 @@ export function Contacto() {
                 <h2>CONTACTO</h2>
             </div>
 
-            <div className='container-fluid contacto'>
+            <div className='contacto'>
 
 
                 <Form onSubmit={handleSubmit}>

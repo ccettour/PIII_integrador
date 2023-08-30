@@ -1,7 +1,6 @@
 .contacto {
     height: 100vh;
-    padding-top: 2rem;
-    padding-bottom: 80px;
+    padding: 80px 10vw;
     background-color: rgb(48,48,48);
     font-family: Montserrat, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', Verdana, Geneva, sans-serif;
 }

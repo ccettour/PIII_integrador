@@ -1,10 +1,10 @@
 import './Footer.css';
 
-import imgEMAIL from './email.png';
-import imgFB from './facebook.png';
-import imgWA from './whatsapp.png';
-import imgIG from './instagram.png';
-import imgYT from './youtube.png';
+import imgEMAIL from './img/email.png';
+import imgFB from './img/facebook.png';
+import imgWA from './img/whatsapp.png';
+import imgIG from './img/instagram.png';
+import imgYT from './img/youtube.png';
 
 export function Footer() {
 

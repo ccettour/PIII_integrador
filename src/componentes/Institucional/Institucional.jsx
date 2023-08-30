@@ -55,7 +55,7 @@ export function Institucional() {
         <hr></hr>
         <br />
         <h2 className="title-parrafo">Valores</h2>
-        <p className="parrafo">
+        <section className="parrafo">
           <ul>
             <li>Calidad académica</li>
             <li>Honestidad y transparencia</li>
@@ -65,7 +65,7 @@ export function Institucional() {
             <li>Democracia</li>
             <li>Innovación</li>
           </ul>
-        </p>
+        </section>
         <hr></hr>
         <br />
         <h2 className="title-parrafo">Misión</h2>
@@ -128,10 +128,9 @@ export function Institucional() {
           Tecnológica, propuesta del Consorcio conformado por la UNER, UNR,
           UNNOBA. La misma esta destinada a graduados de distintas áreas
           disciplinares, empresas e instituciones regionales.
-          <hr></hr>
-          <br />
         </p>
-
+        <hr></hr>
+        <br />
         <h2 className="title-parrafo">Fotos</h2>
         <div className="container-carrusel">
           <div className="img-carrusel">

@@ -5,7 +5,7 @@ import './Inicio.css';
 export function Inicio() {
   const [noticias, setNoticias] = useState([]);
   const [tema] = useState("Tecnologia");
-  const cantidadNoticias = 12;
+  const cantidadNoticias = 10;
   let pageFinal = cantidadNoticias;
   let pageInicial = 0;
   let temaActual = "Tecnologia";

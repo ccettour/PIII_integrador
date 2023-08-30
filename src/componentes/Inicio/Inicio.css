@@ -73,7 +73,7 @@ h3 {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 25px;
     background-color:  rgb(48, 48, 48);
-    padding: 10px 20px;
+    padding: 10px 10vw;
 }
 
 .container-noticias .item {
@@ -135,7 +135,7 @@ button.btn-accion {
 }
 
 .ver-mas{
-    padding: 0px 20px 90px;
+    padding: 0px 10vw 90px;
     background-color: rgb(48, 48, 48);
     display: flex;
     justify-content: flex-end;

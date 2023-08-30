@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 import { Institucional } from '../Institucional/Institucional';
 import { Contacto } from '../Contacto/Contacto';
 import { Inicio } from '../Inicio/Inicio';
-import imgFCAD from './fcad.jpeg';
+import imgFCAD from './img/fcad.jpeg';
 
 export function Header() {
   return (
